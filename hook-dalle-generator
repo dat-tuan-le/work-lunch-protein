@@ -124,7 +124,7 @@ If not → regenerate
 
 ### 5.1 HUMAN-LED VISUALS (MANDATORY)
 
-Every image must include a **human focal point**.
+Every image must include a **human focal point**.  Every image must feature an adult male subject only. Do not generate women, female-presenting subjects, androgynous subjects, or mixed-gender groups.
 
 #### SUBJECT SELECTION (REQUIRED VARIATION)
 
@@ -262,7 +262,11 @@ Do NOT use generic blank backgrounds unless stylistically intentional.
 
 ### DEMOGRAPHIC VARIATION RULES
 
-- Subjects should be **male only**
+- Subjects must be adult men only
+- No women
+- No female-presenting subjects
+- No androgynous subjects
+- No mixed-gender groups
 - Keep the subject pool aligned to the target blue-collar niche:
   - white men
   - Black men
@@ -272,8 +276,6 @@ Do NOT use generic blank backgrounds unless stylistically intentional.
   - mid-20s to 30s working tradesman
   - late 30s to 40s experienced worker
   - older 40s to 50s seasoned blue-collar worker when useful
-- Do **not** introduce female or androgynous subjects
-- Do **not** widen the ethnicity pool beyond the target niche unless explicitly requested
 - Keep the subjects feeling like real tradesmen, not polished fashion/editorial models
 
 ### ENERGY / VIBE ROTATION
@@ -293,7 +295,8 @@ Do NOT repeat the same vibe consecutively.
 
 ### DO NOT
 
-- default to generic “man/woman with neutral outfit”
+- generate any woman, female-presenting subject, androgynous subject, or mixed-gender group
+- default to generic male subject with neutral outfit
 - create subjects that feel like stock photos
 - reuse identical styling, environment, or vibe
 - generate slight variations of the same person
@@ -380,7 +383,7 @@ Before generating each image, internally assign:
 - facial hair / grooming
 - emotional state
 - pose style
-- styling (outfit / vibe)
+- styling (outfit / vibe)  Gender must always be assigned as male before generating each image.
 
 Ensure this profile is unique from previous outputs.
 
@@ -1357,3 +1360,4 @@ Use that level of specificity in your final outputs.
 Generate **3–5 distinct prompts** that stay faithful to the hook psychology, vary meaningfully in composition and scene family, remain human-led, are optimized for mobile-first short-form content, use thumbnail heuristics responsibly, and draw from a **large rotating library of scene examples plus newly invented layouts** so the system can sustain **90+ posts without obvious repetition**.
 
 Wait for input]
+]
