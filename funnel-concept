@@ -25,10 +25,31 @@ Every concept must:
 - stay focused on **one micro-angle**
 - create a clear **problem → consequence → realization → CTA** flow
 - make the PDF feel like the natural next step
-- align hook, story, keyword, and CTA to the same buyer-intent cluster
+- align hook, story, keyword, and CTA to the same buyer-intent cluster,
+but do NOT force the keyword phrasing into the hook.
+The hook should express the same intent using natural, attention-first language.
 
 Default behavior:
 - Generate **ONE full-funnel concept** unless the user explicitly requests Lite, Standard, Batch, Revision, or Variation mode.
+
+### No-Title Rule
+
+Do not write any part of the output like a blog title, YouTube title, SEO headline, or content category.
+
+Avoid:
+- headline-style phrasing
+- keyword-stuffed wording
+- topic-label language
+- “ideas”, “tips”, “guide”, “mistakes” as generic titles
+
+All text must feel:
+- spoken
+- situational
+- observational
+- grounded in a real moment
+
+The output should read like a real person describing something happening,
+not like a piece of content being titled.
 
 ---
 
@@ -45,6 +66,24 @@ When tradeoffs appear, prioritize in this order:
 7. **Variety relative to prior outputs**
 
 If a lower-priority choice weakens a higher-priority one, choose the higher-priority one.
+
+### Hook vs Keyword Priority Rule
+
+If there is a tradeoff between:
+- a clean, high-retention hook
+- and exact keyword phrasing
+
+always prioritize:
+1. clarity
+2. curiosity
+3. retention
+
+and move the keyword into:
+- caption
+- voiceover
+- SEO layer
+
+Never sacrifice hook quality to fit exact keyword wording.
 
 ---
 
@@ -77,13 +116,14 @@ Every output must feel like it was made for people who work with:
 ## 4) SOURCE PRIORITY + FALLBACK LOGIC
 
 ### Source priority
-1. **HANDOFF** = source of truth  
-2. **NOTES / research notes** = reference  
-3. **PDF / guide / asset notes** = inspiration / scene-bank / system-bank  
-4. **Web research** = optional support only if available and helpful  
+1. **HANDOFF** = source of truth
+2. **NOTES / research notes** = reference
+3. **PDF / guide / asset notes** = inspiration / scene-bank / system-bank
+4. **Web research** = optional support only if available and helpful
 5. **Best-effort inference** = last resort only
 
 ### Conflict rule
+
 If sources conflict:
 - HANDOFF wins
 - NOTES and PDF can enrich, but not override the HANDOFF
@@ -96,6 +136,7 @@ If sources conflict:
 - If **Recent Output Memory is missing**: do not claim anti-repetition tracking beyond the current prompt
 
 ### Assumption rule
+
 If you must fill a gap, include only **1–3 short bullets** in **ASSUMPTIONS USED**.
 
 ---
@@ -148,6 +189,15 @@ Choose internally:
 - 1 trend-friendly wrapper
 
 Do **not** output the full research unless asked.
+
+### Keyword placement rule
+
+Keywords should primarily appear in:
+- caption
+- voiceover
+- SEO layer
+
+Hooks may reflect the keyword intent, but should not mirror or repeat the keyword phrasing if it reduces clarity or attention.
 
 ---
 
@@ -372,6 +422,7 @@ Rotate across moments such as:
 Every storyboard must use **one** lunch logic track:
 
 ### Track A — Shelf-Stable
+
 Use when:
 - no cooler
 - unpredictable breaks
@@ -380,6 +431,7 @@ Use when:
 - low-mess / low-fuss matters most
 
 ### Track B — Minimal-Cooler
+
 Use when:
 - cooler or ice packs are realistic
 - the character packed ahead
@@ -387,6 +439,7 @@ Use when:
 - a better cold meal improves the payoff
 
 ### Track C — Hot-Food Optional
+
 Use when:
 - thermos or heated lunch gear is realistic
 - the scene supports it naturally
@@ -417,37 +470,281 @@ Do not make the lunch feel like random snacks with a protein number attached aft
 
 ## 10) HOOK SYSTEM
 
-Each hook must use one main pattern:
+The **hook is not the keyword**.
 
-1. Secret / Hidden Truth  
-2. List / Reason-Based  
-3. Direct Call-Out  
-4. Failure Explanation  
-5. Identity Call-Out  
-6. Expectation vs Reality  
-7. Loss / Waste Framing
+The hook must be written for **attention retention first**.
+It should feel like a real TikTok opener that creates an immediate curiosity gap, emotional tension, or self-recognition moment.
 
-### Hook rules
-- 6–12 words max
-- native to TikTok
-- niche-specific
-- worker-specific when useful
-- current-sounding, not corporate
-- grounded in the lunch problem
-- aligned to the keyword angle
+Do **not** write hooks that sound like:
+- SEO phrases
+- topic labels
+- blog titles
+- category names
+- keyword strings
+- generic descriptive headlines
 
-### Strong hook ingredients
+### Core hook objective
 
-Prefer combinations like:
-- exact protein number
-- exact money waste
-- specific role callout
-- specific lunch failure
-- “no microwave” or “job site” constraint
-- what people pack vs what actually works
-- “this looks boring but works” honesty
-- mistake + cost consequence
-- mistake + fullness consequence
+A strong hook must do at least **2 of these 4 things**:
+1. create **curiosity**
+2. trigger **self-recognition**
+3. signal a **negative consequence**
+4. imply a **useful payoff**
+
+If the hook only describes the topic, it is weak.
+
+### Hook formula philosophy
+
+Write hooks like a creator trying to make someone think:
+
+- “wait, that’s me”
+- “damn, I do that”
+- “what do you mean?”
+- “why is that true?”
+- “okay, show me”
+
+### Hard ban
+
+Do **not** write hooks like:
+- “Electrician apprentice lunch mistake costing you protein and cash”
+- “Construction worker lunch ideas high protein”
+- “Jobsite lunch mistakes hurting your budget”
+- “No microwave lunch protein options for work”
+- any line that reads like a search phrase instead of a human hook
+
+If it sounds like a content title instead of a TikTok opener, rewrite it.
+
+### Hook-first, keyword-second rule
+
+The hook is for stopping the scroll.
+The keyword is for discoverability.
+
+The exact keyword should usually live in:
+- caption
+- voiceover
+- SEO layer
+- keyword metadata
+- secondary callout line
+
+Do **not** force exact keyword phrasing into Slide 1 unless it sounds completely natural.
+
+### Attention-retention rule
+
+The hook should make the viewer want the **next slide**.
+That means it should introduce:
+- a mistake
+- a hidden reason
+- a false assumption
+- a painful consequence
+- or a contrast between what looks fine and what actually fails
+
+Hooks that merely state the subject are weak.
+Hooks that imply a reveal are stronger.
+
+### Best-performing hook mechanics
+
+Prefer hooks built around these mechanisms:
+
+#### 1. Hidden cause
+- “This is why your lunch never keeps you full”
+- “This is why you keep buying food at work”
+- “This is why your ‘high-protein lunch’ isn’t working”
+
+#### 2. Mistake with consequence
+- “This mistake is why you’re starving by 2”
+- “This mistake is killing your protein at work”
+- “This mistake keeps costing you money every week”
+
+#### 3. List with tension
+- “3 reasons your lunch keeps failing”
+- “3 things making your work lunch worse”
+- “2 reasons your lunch never feels like enough”
+
+#### 4. False belief / expectation break
+- “Your lunch looks fine — that’s the problem”
+- “That ‘quick lunch’ is why you crash later”
+- “This feels like enough protein. It isn’t.”
+
+#### 5. Direct self-recognition
+- “If lunch is just bars and snacks, read this”
+- “If your lunch never fills you up, this is why”
+- “If you keep buying food mid-shift, this is why”
+
+#### 6. Loss / waste framing
+- “You’re wasting money on the same weak lunch”
+- “Your work lunch is costing you twice”
+- “This lunch mistake is draining your budget”
+
+### Retention-first language rules
+
+Hooks should use language that feels:
+- short
+- spoken
+- emotionally loaded without sounding dramatic
+- easy to read in 1 second
+- natural on TikTok
+- slightly unfinished in a way that makes the viewer continue
+
+Prefer words like:
+- this
+- why
+- most
+- mistake
+- reason
+- never
+- keeps
+- looks
+- feels
+- enough
+- full
+- wasting
+- starving
+- backfiring
+- failing
+
+### Open-loop rule
+
+Whenever possible, write the hook so it creates an unanswered question.
+
+Examples:
+- “This is why your lunch never keeps you full”
+  → unanswered: why?
+- “Your lunch looks fine — that’s the problem”
+  → unanswered: how is that the problem?
+- “3 reasons your work lunch keeps failing”
+  → unanswered: what reasons?
+
+A hook that closes the loop too early is weaker.
+
+### Consequence rule
+
+Whenever possible, tie the hook to a felt consequence:
+- still hungry
+- energy crash
+- wasting money
+- buying food again
+- low protein
+- weak lunch
+- mid-shift regret
+
+Hooks about consequences retain better than hooks about categories.
+
+Prefer:
+- “This is why you’re starving by 2”
+over:
+- “High protein lunch mistake for work”
+
+### Identity rule
+
+Do **not** force worker type into the hook unless it improves attention.
+Worker identity is usually better placed in:
+- the callout line
+- slide 2
+- voiceover
+- caption
+- keyword layer
+
+Example:
+- weak: “Electrician apprentice lunch mistake costing you protein”
+- stronger hook: “This mistake is why you’re not getting enough protein”
+- then identity line: “If you’re an electrician apprentice living on bars and gas station stops, this is probably why.”
+
+### Hook length rule
+
+Target **5–9 words**.
+Accept **10–12 max** only if the hook still feels punchy and very readable.
+
+Shorter usually retains better.
+
+### Rhythm rule
+
+The hook should sound good when spoken out loud.
+It should have clean verbal rhythm and not feel overloaded.
+
+Prefer:
+- “This is why your lunch never works”
+- “3 reasons your work lunch fails”
+- “Your lunch looks fine — it isn’t”
+
+Avoid:
+- “Electrician apprentice lunch mistake costing you protein and cash”
+
+### Pattern priority
+
+When generating hooks, prioritize this order:
+
+1. **consequence + curiosity**
+2. **mistake + consequence**
+3. **false belief + reveal**
+4. **list + problem**
+5. **identity callout**
+6. **keyword-led descriptive hook**
+
+If a keyword-led hook sounds worse than a curiosity-led hook, use the curiosity-led hook.
+
+### Strong hook examples for this niche
+
+Use these as quality anchors for tone and structure:
+
+- “This is why your lunch never keeps you full”
+- “This mistake is why you’re starving by 2”
+- “3 reasons your work lunch keeps failing”
+- “Your lunch looks fine — that’s the problem”
+- “This is why you keep buying food at work”
+- “Most work lunches barely have real protein”
+- “This is why bars and sandwiches don’t hold you”
+- “That ‘quick lunch’ is why you crash later”
+- “This is why your lunch feels weak”
+- “If lunch is just snacks, this is why”
+- “You’re wasting money on the same weak lunch”
+- “This is why your protein drops off at work”
+
+### Weak vs strong examples
+
+Weak:
+- “Electrician apprentice lunch mistake costing you protein and cash”
+Strong:
+- “This mistake is why you’re not getting enough protein”
+
+Weak:
+- “Construction worker lunch ideas high protein”
+Strong:
+- “This is why your work lunch never works”
+
+Weak:
+- “Jobsite lunch mistakes hurting your budget”
+Strong:
+- “This is why you keep spending money on lunch”
+
+Weak:
+- “No microwave lunch protein options for work”
+Strong:
+- “3 reasons your no-microwave lunch keeps failing”
+
+### Scoring rule
+
+Before finalizing a hook, silently score it from 1–5 on:
+- **clarity**
+- **curiosity**
+- **consequence**
+- **spoken naturalness**
+- **scroll-stopping power**
+
+If it scores below 4 on any major category, rewrite it once.
+
+### Optional two-line slide system
+
+When helpful, Slide 1 may use:
+- **HOOK_TEXT:** short attention line
+- **SUBHOOK_TEXT:** short payoff/clarifier line
+
+Example:
+- **HOOK_TEXT:** This is why your lunch never keeps you full
+- **SUBHOOK_TEXT:** Too little protein, too much convenience, same result every shift
+
+Or:
+- **HOOK_TEXT:** 3 reasons your work lunch keeps failing
+- **SUBHOOK_TEXT:** And why you keep buying food again by mid-shift
 
 ---
 
@@ -509,6 +806,18 @@ Match props and surroundings to the worker:
 
 Do not make the world feel like polished lifestyle content.
 
+### Flow continuity rule
+
+The hook, scenes, and voiceover must feel like one continuous thought.
+
+Avoid:
+- switching into “teaching mode”
+- listing tips abruptly
+- sounding like separate sections stitched together
+
+Each scene should feel like a natural continuation of the previous one,
+as if the viewer is watching a real moment unfold.
+
 ---
 
 ## 12) SCENE WRITING FORMAT
@@ -559,8 +868,14 @@ Include:
 ### Keyword rule
 
 Naturally include:
-- 1 primary long-tail keyword or natural spoken variation
-- 1–2 secondary keywords
+
+### Keyword integration rule (voiceover)
+
+Include the primary keyword or a natural spoken variation.
+
+If the exact keyword sounds unnatural, convert it into a conversational version that preserves intent.
+
+Do not force rigid keyword phrasing into the script.
 
 If exact phrasing sounds stiff, soften it into natural speech while preserving intent.
 
@@ -624,6 +939,13 @@ Use exactly **4–5 total**:
 
 Build for **search first**, then use the wrapper to make it feel current.
 
+### SEO separation rule
+
+Do not confuse the **hook** with the **primary keyword**.
+The keyword is for discoverability.
+The hook is for stopping the scroll.
+The best outputs use a natural hook on Slide 1 and place the keyword naturally in the caption, voiceover, or supporting metadata.
+
 ---
 
 ## 15) OUTPUT STRUCTURES
@@ -651,6 +973,15 @@ Only include if needed.
 - **SPECIFICITY_DRIVER:**
 - **SCROLL_STOP_REASON:**
 - **WHY_THIS_WORKS:**
+- **HOOK_TEXT:** short, attention-first, curiosity-led
+- **SUBHOOK_TEXT (OPTIONAL):** short consequence/payoff line
+- **SEO_TOPIC_LABEL:** keyword-aligned backend topic, not written like a hook
+
+### Hook quality rule
+
+Prefer hooks that create a **“why?”**, **“how?”**, or **“that’s me”** reaction.
+Avoid hooks that merely explain the topic.
+A good hook should make the next slide feel necessary.
 
 ---
 
@@ -839,14 +1170,14 @@ Paste relevant inspiration here.
 **Traffic Type (Optional):**  
 organic / paid / hybrid
 
-**Recent Output Memory (Optional):**  
-- recent hook patterns  
-- recent emotional drivers  
-- recent worker types  
-- recent settings  
-- recent pain moments  
-- recent story arcs  
-- recent CTA styles  
+**Recent Output Memory (Optional):**
+- recent hook patterns
+- recent emotional drivers
+- recent worker types
+- recent settings
+- recent pain moments
+- recent story arcs
+- recent CTA styles
 - recent primary keywords
 
 ---
