@@ -323,6 +323,14 @@ If generating multiple outputs, vary:
 - caption cluster
 - CTA bridge
 - ending execution
+- primary pressure
+- visible consequence
+- realization style
+- correction style
+- interruption type
+- interaction beat
+- first failure reveal
+- scene-function order
 
 ### Anti-repetition rule
 
@@ -334,6 +342,14 @@ Do **not** keep defaulting to:
 - the same lunch components
 - the same emotional arc
 - the same CTA setup
+- truck cab opener
+- dashboard food shot
+- gas station bailout
+- grocery store confusion
+- generic kitchen reset
+- driving transition scenes
+- store visit as the main midpoint
+- home as the only correction setting
 
 ### Construction-is-not-the-default rule
 
@@ -342,7 +358,90 @@ Construction workers are valid, but they are only one part of the niche.
 ### Anti-stereotype rule
 
 Be specific without caricature.  
-Use worker-world details realistically, not as class-coded clichés or exaggerated “tough guy” shorthand.
+Use worker-world details realistically, not as class-coded clichés or exaggerated “tough guy” shorthand.  ### Rotation rule for high-volume generation
+
+If generating 20+ concepts, force at least 3 of these to change every time:
+- primary pressure
+- failure mode
+- visible consequence
+- emotional shift
+- correction style
+- interruption type
+- worker type
+- secondary setting
+- first scene function
+- midpoint function
+
+If generating 50+ concepts, force at least 5 of these to change every time.
+
+If generating 90+ concepts, do not treat setting alone as sufficient variation.
+A new concept must feel structurally different because the pressure sequence changes, not just the backdrop.
+
+---
+
+## 7.5) PRESSURE-SEQUENCE STORY ENGINE
+
+### Core rule
+
+Do not build the storyboard as a location route such as:
+- truck
+- van
+- gas station
+- grocery store
+- home
+
+Instead, build the storyboard as an escalating pressure sequence:
+
+1. work pressure appears
+2. current lunch fails under that pressure
+3. the failure creates a visible consequence
+4. the character reacts emotionally
+5. the character realizes the issue is the lunch system, not just the food itself
+6. the final scenes show a corrected setup for tomorrow
+
+Story progression must come from:
+- pressure
+- failure
+- consequence
+- reaction
+- realization
+- correction
+
+Not from travel alone.
+
+### Scene progression rule
+
+Each new scene must introduce at least one new story function:
+- new pressure
+- new failure
+- new consequence
+- new reaction
+- new realization
+- new correction step
+
+Do not include scenes that only change location without changing story function.
+
+### Anti-route rule
+
+Avoid default storyboard loops such as:
+- truck → store → home
+- van → gas station → kitchen
+- worksite → grocery aisle → home counter
+
+Location changes are optional.
+Tension progression is mandatory.
+
+### Mandatory internal locks
+
+Before writing any storyboard, lock these 5 items:
+
+1. primary pressure
+2. failure mode
+3. visible consequence
+4. emotional shift
+5. correction style
+
+These 5 choices should shape the scene order more than location does.
 
 ---
 
@@ -413,7 +512,82 @@ Rotate across moments such as:
 - spent too much on convenience food all week
 - energy crash halfway through shift
 - bought hot food again because packed lunch felt depressing
-- backup stash missing when needed most
+- backup stash missing when needed most  ### Pressure bank
+
+Rotate across pressures such as:
+- break got shortened
+- no clean place to eat
+- heat makes the packed food less appealing
+- no cooler on this shift
+- hands are dirty and lunch is hard to handle
+- worker is moving site to site
+- lunch gets delayed by two hours
+- no utensils available
+- worker has to eat standing up
+- phone or radio interrupts the break
+- lunch got crushed in the bag
+- no appetite for the packed option after the environment changed
+- food safety concern after a long hot stretch
+- worker forgot backup items
+- shift is running long
+- awkward client-facing setting makes eating harder  ### Visible consequence bank
+
+Rotate across consequences such as:
+- still hungry halfway through shift
+- buys food again
+- throws half the lunch back in the bag
+- reaches for snacks instead of a real meal
+- drinks caffeine instead of eating enough
+- gets distracted by hunger
+- gets annoyed seeing how little food is left
+- stares at the total on the receipt
+- ends up eating too late
+- skips lunch completely
+- realizes the lunch was all filler and barely any protein
+- notices the packed food did not survive the day well
+- keeps spending money because the packed lunch keeps failing
+- loses patience with the same routine again  ### Correction-style bank
+
+Rotate across correction endings such as:
+- shelf-stable truck backup stash
+- minimal-cooler reset for tomorrow
+- protein anchor + booster laid out on the counter
+- work bag restocked before bed
+- soft cooler packed by the door
+- simple checklist used for next shift
+- lunch components grouped by shift type
+- backup items placed in glove box or side compartment
+- fridge bin reorganized for grab-and-go packing
+- thermos setup prepared for the morning
+- tomorrow’s lunch staged next to keys, gloves, and badge  ---
+
+## 8.5) SCENE FUNCTION BANK
+
+Every storyboard scene should serve a function, not just show a place.
+
+Use scene functions such as:
+- pressure enters
+- lunch gets exposed as weak
+- worker tries to make it work
+- interruption makes lunch harder
+- visible consequence lands
+- emotional reaction
+- comparison moment
+- realization moment
+- system tease
+- correction for tomorrow
+- backup logic added
+- final CTA bridge beat
+
+For variation, rotate the order of the middle scene functions while keeping the story coherent.
+
+Example valid function paths:
+- pressure → failure → consequence → reaction → realization → correction
+- pressure → interruption → failure → compensation attempt → consequence → realization → correction
+- weak lunch reveal → pressure spike → compensation attempt → money consequence → reaction → correction
+- comparison moment → self-recognition → failure reveal → consequence → realization → correction
+
+Do not reuse the same function order too often when generating in batches.
 
 ---
 
@@ -761,16 +935,22 @@ After that, generate a **continuous 28–30 second visual story**.
 - keep **one main character** and **one coherent timeline**
 - do not switch into generic teaching bullets
 - location changes must feel like the same workday continuing
+- the scene order must be driven by pressure escalation, not travel progression
+- each middle scene must perform a distinct story function
+- at least one middle scene should include interruption, inconvenience, awkwardness, or environmental friction
+- the midpoint should not default to a store stop unless the story genuinely requires it
+- the correction ending should not default to a generic kitchen counter unless it is meaningfully specific to the worker
 
 ### Mandatory arc
-1. problem setup
-2. failed lunch behavior or temptation
-3. cost / protein / convenience consequence
-4. emotional reaction
-5. deeper realization
-6. system tease
-7. pack-for-tomorrow behavior
-8. CTA bridge
+1. pressure setup
+2. current lunch failure gets exposed
+3. compensation attempt or continued friction
+4. visible consequence lands
+5. emotional reaction
+6. deeper realization
+7. system correction begins
+8. pack-for-tomorrow behavior
+9. CTA bridge
 
 ### Mandatory ending rule
 
@@ -784,13 +964,21 @@ In every full storyboard, one of the final 1–2 scenes must show some version o
 
 ### Distinct-scene rule
 
+### Distinct-scene rule
+
 Each scene must introduce a new beat:
-- new problem
-- new reaction
+- new pressure
+- new failure
 - new consequence
-- new discovery
+- new interruption
+- new reaction
+- new realization
 - new choice
+- new correction step
 - new preparation step
+
+A new camera angle or location alone does not count as a new beat.
+The viewer should understand something new after every scene.
 
 ### Scene realism rule
 
@@ -835,13 +1023,68 @@ Each scene must clearly describe:
 - emotional tone
 - lighting / atmosphere
 - composition / framing
+- story function in that moment
+- what new pressure, failure, consequence, reaction, realization, or correction is being revealed
 
 Avoid vague phrasing like:
 - “he struggles”
 - “things go wrong”
 - “it’s hard”
 
+Also avoid scenes that only show movement between places unless that movement itself adds story pressure or consequence.
+
 Show exactly what is happening visually.
+
+---
+
+## 12.5) HIGH-VOLUME VARIATION RULES
+
+When generating large numbers of storyboard concepts, variety must come from structural change, not cosmetic change.
+
+### Structural variation must come from combinations of:
+- different primary pressures
+- different failure modes
+- different visible consequences
+- different interruption types
+- different emotional shifts
+- different scene-function orders
+- different correction styles
+- different worker environments
+- different compensation attempts
+- different realization tones
+
+### High-volume anti-repetition rule
+
+For 20+ outputs:
+- do not repeat the same first 3 scene functions more than twice in close succession
+
+For 50+ outputs:
+- do not repeat the same midpoint compensation beat too often
+- do not rely on store-stop scenes as the default consequence beat
+
+For 90+ outputs:
+- treat each concept as a new pressure/failure/consequence structure
+- a changed worker or backdrop alone is not enough
+- at least 5 of these must change across nearby outputs:
+  - primary pressure
+  - failure mode
+  - visible consequence
+  - interruption type
+  - emotional shift
+  - scene-function order
+  - correction style
+  - first reveal type
+  - compensation attempt
+  - setting combination
+
+### Scene-combination rule
+
+Do not repeatedly use:
+- vehicle interior opener + store midpoint + home reset
+- weak lunch reveal + receipt shot + kitchen counter ending
+- dashboard shot + snack purchase + next-day prep
+
+Force new combinations across batches.
 
 ---
 
@@ -985,7 +1228,7 @@ A good hook should make the next slide feel necessary.
 
 ---
 
-### C. STORYBOARD — 28–30 SECOND STORY FLOW
+### C. STORYBOARD — 28–30 SECOND STORY FLOW  The storyboard must reflect a pressure-driven sequence, not a travel-driven route.
 
 #### **SCENE 2 — [approx. time range]**
 [3–5 sentence visual scene]
@@ -1114,10 +1357,13 @@ Before finalizing, verify internally:
 
 ### Story
 - one main character
+- pressure appears early
 - visible lunch failure or temptation
-- visible consequence
-- real realization
+- at least one interruption, inconvenience, awkwardness, or environmental friction beat appears
+- visible consequence lands clearly
+- real realization happens
 - final pack-for-tomorrow scene exists
+- story progression comes from pressure escalation, not just changing places
 - CTA feels earned
 
 ### Realism
@@ -1137,7 +1383,9 @@ Before finalizing, verify internally:
 - wrapper does not overpower evergreen intent
 
 ### Distinctiveness
-- not the same worker, setting, failure mode, or ending beat again unless the user asked for it
+- not the same worker, setting, pressure type, failure mode, visible consequence, scene-function order, or ending beat again unless the user asked for it
+- not another truck/store/home loop in disguise
+- setting variation alone is not being mistaken for true story variation
 
 If any major item fails, silently revise once.  
 Fix the **highest-priority failure first** according to Section 2.
@@ -1179,6 +1427,33 @@ organic / paid / hybrid
 - recent story arcs
 - recent CTA styles
 - recent primary keywords
+
+---
+
+## 20.5) BATCH ROTATION PLANNER
+
+When generating storyboard batches, internally create variation by rotating these categories:
+
+1. worker type
+2. primary pressure
+3. lunch logic track
+4. failure mode
+5. interruption type
+6. visible consequence
+7. emotional shift
+8. scene-function order
+9. secondary setting
+10. correction style
+
+Do not allow consecutive outputs to share the same combination pattern too often.
+
+For large batches, prioritize:
+- structural variety
+- believable worker-world specificity
+- different correction endings
+- different mid-story consequence beats
+
+Do not rely on location changes alone to create the appearance of originality.
 
 ---
 
