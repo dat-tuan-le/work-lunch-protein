@@ -200,6 +200,7 @@ It must establish:
 - exact limb count and exact hand structure
 - realistic hand posing and finger articulation
 - believable hand-to-object contact logic
+- clear scene-to-scene positional progression of the recurring main character across the environment
 
 Across the sequence, preserve stable background logic and prop persistence. Do not introduce random new objects, tools, fixtures, bins, food items, or structural elements unless they were previously established, explicitly described, or clearly required by the action in the current scene.
 
@@ -222,6 +223,8 @@ The anchor must clearly instruct the model to create:
 - no extra fingers, fused fingers, duplicate hands, duplicate limbs, or broken joints
 - realistic hand poses when interacting with props
 
+Across scenes, enforce trackable character movement through the environment by keeping background structure stable and changing the character’s screen position relative to established objects from one frame to the next.
+
 ## SCENE-TO-SCENE CONTINUITY
 
 Every scene must feel like the next moment in the same story.
@@ -240,15 +243,46 @@ Preserve continuity when appropriate:
 - same vehicle interior logic, room layout logic, or workstation logic when returning to the same setting
 - same action logic carrying over naturally from one beat to the next
 - props changing state only when the scene action clearly motivates that change
+- trackable character position changes relative to the same fixed background elements
+- clear movement progression across the environment from one scene to the next
 
 If the storyboard implies one person throughout, keep the same person throughout.  
+If the storyboard stays in the same location, make the person visibly change position within that location from scene to scene so the sequence reads like physical movement through space, not repeated posing.  
 If it implies multiple people, keep each visually distinct and stable.
 
 For SCENE 2 and onward, treat each prompt as a continuation of the immediately previous generated image.  
 Assume the previous scene image is available as a visual continuity reference for character identity, outfit, hair, proportions, color palette, lighting behavior, environment structure, prop carryover, and camera-world consistency.
 
 For SCENE 2 and onward, begin the scene prompt with this exact sentence:  
-“Using the previous scene image as the direct visual continuity reference, keep the same recognizable character, same outfit, same environment structure, same prop inventory, and same background object placement unless the current action explicitly changes something.”
+“Using the previous scene image as the direct visual continuity reference, keep the same recognizable character, same outfit, same environment structure, same prop inventory, and same background object placement unless the current action explicitly changes something, and show the character in a clearly new position within that same space.”
+
+## CHARACTER MOVEMENT ACROSS FRAME
+
+Every scene must show the main character in a clearly new spatial position within the environment, not just a new pose in the same spot.
+
+Across the sequence, enforce visible positional progression by changing the character’s location relative to fixed background elements such as walls, equipment, counters, vehicles, doors, shelves, or rooftop units.
+
+The character must visibly travel through the scene over time using one or more of these progression patterns:
+- left side of frame to center to right side of frame
+- foreground to midground to background
+- farther from a key prop in one scene and closer to it in the next
+- standing near one established object in one scene and near a different established object in the next
+
+For every scene, explicitly define:
+- where the character is positioned in the frame
+- what established object or structure they are closest to
+- how this position differs from the previous scene
+- whether the movement is lateral, forward, backward, diagonal, entering, exiting, approaching, passing, or crossing
+
+The environment must remain spatially stable enough for the viewer to track the movement.
+
+Do not let the character remain centered in every frame.  
+Do not let the character appear locked to the same floor position across multiple scenes.  
+Do not let progression read like idle posing or walking in place.
+
+When the story stays in one location, preserve the same world layout while changing the character’s placement and the camera’s relationship to that placement.
+
+For SCENE 2 and onward, treat movement as cumulative. Each new scene should feel like the next beat after the previous frame, with the character visibly having changed location within the same physical space.
 
 ## BACKGROUND CONTINUITY RULE
 
@@ -334,6 +368,10 @@ Support:
 - clean visual hierarchy
 
 The character should usually read as a smaller figure within the full scene. Compose so the environment occupies roughly 60–70% of the frame.
+
+Character placement should vary across scenes so the subject does not occupy the same exact screen region every time.
+
+When a sequence stays in one location, use wider framing and stable background reference points so the character’s movement across the frame is easy to read.
 
 ## COMPOSITION RULE
 
@@ -428,8 +466,9 @@ Each scene must visibly advance the story through:
 - object state changes
 - believable next actions
 - natural viewpoint progression
+- visible spatial relocation of the character across the environment
 
-Progression must come from action, posture, expression, and object-state changes, not random background reinvention.
+Progression must come from action, posture, expression, object-state changes, and visible spatial relocation through the environment, not random background reinvention.
 
 Do not create prompts that feel like:
 - the same frame repeated
@@ -467,6 +506,8 @@ If a scene is a CTA, insight, reset, or text-heavy payoff frame:
 
 ## SCENE PROMPT QUALITY STANDARD
 
+When writing each scene, explicitly describe the character’s position relative to previously established objects or structures so their movement through the environment is trackable from frame to frame.
+
 Every scene prompt must be a fully written descriptive paragraph of 4–6 sentences.
 
 Every scene prompt must naturally include:
@@ -486,6 +527,7 @@ Every scene prompt must naturally include:
 - action-supporting surfaces
 - required tools when relevant
 - valid object-use relationships
+- explicit character position within the frame and environment
 
 Every scene prompt must explicitly include the following rendering instruction in natural phrasing:  
 rendered as a simplified 2D storyboard comic frame with clean dark outlines, flat color fills, very limited cel shading, stylized adult character design, graphic hair shapes, and non-photoreal rendering.
@@ -519,6 +561,7 @@ For SCENE 2 and onward, explicitly include continuity language that preserves:
 - the same environment and object placement logic when still in the same location
 - the same color palette, illustration treatment, and lighting continuity
 - the same prop states unless the new action changes them
+- changed character placement relative to previously established background elements
 
 Also, for SCENE 2 and onward, allow natural variation in facial angle, expression, line simplification, and stylized head construction so the character does not become a frozen copy-paste face.
 
@@ -607,10 +650,11 @@ For each SCENE prompt, write it as if describing a single storyboard frame to an
 Use this internal order:
 1. continuity reference from the previous scene when applicable
 2. exact subject and emotional state
-3. exact action happening now
-4. environment and spatial layout
-5. prop placement and object state
-6. composition and framing instructions
+3. exact spatial position in frame and how it has changed from the previous scene
+4. exact action happening now
+5. environment and spatial layout
+6. prop placement and object state
+7. composition and framing instructions
 
 Each scene must feel cinematically connected, spatially stable, and physically motivated.
 
@@ -625,15 +669,16 @@ Before writing the output, internally:
 6. map object-to-environment relationships
 7. map containment and support logic for key props
 8. map prop progression
-9. map action logic for each scene
-10. remove any action that is visually dramatic but physically invalid
-11. create one global style anchor
-12. write each scene as the next visual beat in the same sequence
-13. enforce third-person 9:16 mobile-safe composition
-14. enforce spatial clarity, anatomy clarity, object integrity, containment logic, and action validity
-15. remove anime-like, childlike, or overly cute stylization unless explicitly required
-16. remove repetition across adjacent prompts
-17. verify that the output scene count matches the input scene count
+9. map character movement path through the environment across scenes
+10. map action logic for each scene
+11. remove any action that is visually dramatic but physically invalid
+12. create one global style anchor
+13. write each scene as the next visual beat in the same sequence
+14. enforce third-person 9:16 mobile-safe composition
+15. enforce spatial clarity, anatomy clarity, object integrity, containment logic, and action validity
+16. remove anime-like, childlike, or overly cute stylization unless explicitly required
+17. remove repetition across adjacent prompts
+18. verify that the output scene count matches the input scene count
 
 ## SILENT FINAL VALIDATION
 
@@ -666,6 +711,10 @@ Before finalizing, silently check:
 - any hand showing a screen, receipt, label, or object uses realistic presentation behavior
 - framing is not too tight and the environment reads as a complete visible physical space
 - if this is a new storyboard submission, the lead character is clearly different from prior storyboard leads unless the user explicitly requested the same character
+- character position clearly changes from scene to scene
+- movement across the environment is trackable using stable background reference points
+- the sequence does not read like the character is walking or acting in place
+- framing is not recycled so tightly that movement becomes unclear
 
 If any core rule is violated, revise once before outputting.
 
@@ -676,5 +725,7 @@ I will paste storyboard scenes below.
 Generate:
 - 1 GLOBAL STYLE ANCHOR
 - 1 image-generation-ready prompt per scene
+
+When storyboard scenes happen in the same location, describe each beat with clear positional change across the frame so the character visibly moves through the environment over time.
 
 [PASTE STORYBOARD SCENES HERE]
